@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#clear-4 {
+	clear:both;
+}
+/*////header css*/
+header {
+	height: 120px;
+	background: #FE7E00;
+	display: block;
+}
+header img{
+	height: 95px;
+	padding-top: 15px;
+	padding-left: 39px;
+}
+header ul {
+	float:right;
+	padding-top: 45px;
+	padding-right: 90px;
+}
+header ul li {
+	display: inline;
+	padding: 10px;
+	color: #fff;
+	font-family: monospace;
+	font-size: 22px;
+	font-weight: 100;
+	padding-left: 40px;
+	padding-right: 10px;
+
+}
+
+/*//// end of header css*/
+
+/*////section-1 css*/
+#section-1 {
+	height: 450px;
+	background: #fff;
+	font-family: 'Thasadith', sans-serif;
+	font-weight: 600;
+}
+#section-1 input[type="text"] {
+	display: block;
+	margin-left: 290px;
+	margin-top: 19px;
+	height: 55px;
+	width: 300px;
+	background: #F0F0F0;
+	font-size: 26px;
+	border:none;
+	border-style: outset;
+	border-bottom: solid 4px gray;
+
+}
+i {
+	padding: 8px;
+	padding-top: 4px;
+	background: #F0F0F0;
+	color: #BFBFBF;
+	position:relative;
+	bottom: 55px;
+	left: 579px;
+	border-right: 4px;
+	border-bottom: 4px;
+	border-left: 0;
+	border-top: none;
+	border-right-color: lightgray;
+	border-bottom-color: lightgray;
+	border-style: outset;
+
+
+}
+#section-1 ::placeholder {
+	color: #BFBFBF;
+	padding-left: 20px;
+
+
+}
+#section-1 div {
+	font-size: 36px;
+	color: #F38E2B;
+	letter-spacing: 3px;
+	word-spacing: 10px;
+}
+div.main {
+	margin-top: 79px;
+}
+#section-1 .box-01 img {
+	padding-top: 50px;
+	padding-left: 40px;
+	height: 300px;
+}
+.box {
+	width: 50%;
+	display: inline;
+	float: left;
+	height: 450px;
+}
+span.orange {
+	font-size: 42px;
+	font-weight: bold;
+	font-family: 'Francois One', sans-serif;
+}
+span.blue {
+	color: #9ADAD5;
+}
+.box1 div.main {
+	margin-top: -21px;
+}
+img#tm {
+	position: relative;
+	bottom: 12px;
+	height: 21px;
+}
+input[type="submit"] {
+	margin-top: 45px;
+	padding: 15px 30px;
+}
+input.bt-1 {
+	background: #7CCCCB;
+	margin-right: 25px;
+	border: none;
+	color: #fff;
+	font-size: 25px;
+	word-spacing: 8px;
+	font-family: 'Assistant', sans-serif;
+}
+input.bt-2 {
+	background: #FE7E00;
+	border: none;
+	color: #fff;
+	font-size: 25px;
+	word-spacing:4px;
+	font-family: 'Assistant', sans-serif;
+}
+/*///// end of section-1*/
+
+/*/////start of footer section*/
+
+
+footer {
+	text-align: center;
+	background: #7CCCCB;
+	height: 87px;
+
+}
+
+footer img{
+	height: 32px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+footer span.facebook {
+height: 40px;
+}
+img#face {
+	height: 45px;
+}
